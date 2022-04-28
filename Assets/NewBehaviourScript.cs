@@ -22,7 +22,7 @@ public class NewBehaviourScript : MonoBehaviour
 
       //  Run();
     }
-      Run();
+}      Run();
     }
 
      //void OnMove(InputValue value)
@@ -36,10 +36,17 @@ void Run()
     //Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myRigidbody.velocity.y);
     //myRigidbody.velocity = playerVelocity;
 }
+   void Onjump(Inputvalue value)
+         if (KeyValuePair.ispassed)
+         {
+
+
+           
+
+         }
 
 
 
-  
 
 
 
