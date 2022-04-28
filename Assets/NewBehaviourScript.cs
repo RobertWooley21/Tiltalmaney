@@ -12,6 +12,8 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         myRidgidbody = GetComponent<Rigidbody2D>();
+        CapsuleCollider2D capsuleCollider;
+   
     }
 
     //Update is called once per frame
@@ -22,7 +24,9 @@ public class NewBehaviourScript : MonoBehaviour
 
       //  Run();
     }
-}      Run();
+}
+
+      Run();
     }
 
      //void OnMove(InputValue value)
@@ -37,11 +41,14 @@ void Run()
     //myRigidbody.velocity = playerVelocity;
 }
    void Onjump(Inputvalue value)
-         if (KeyValuePair.ispassed)
+         if (!myCapulecollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+         ////////////////////////if (KeyValuePair.ispassed)
+         void Climbladder() 
          {
+          Vector2 playerVelocity = new Vector2(moveIuput.x * runSpeed, myRigidbody.velocity.y);
 
 
-           
+
 
          }
 
