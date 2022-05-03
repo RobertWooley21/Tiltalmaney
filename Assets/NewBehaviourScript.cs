@@ -26,7 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
 }
 
-      Run();
+      //Run();
     }
 
      //void OnMove(InputValue value)
@@ -40,16 +40,16 @@ void Run()
     //Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myRigidbody.velocity.y);
     //myRigidbody.velocity = playerVelocity;
 }
-   void Onjump(Inputvalue value)
-         if (!myCapulecollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+   void //Onjump(Inputvalue value)
+         //if (!myCapulecollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
          ////////////////////////if (KeyValuePair.ispassed)
          void Climbladder() 
          {
           Vector2 playerVelocity = new Vector2(moveIuput.x * runSpeed, myRigidbody.velocity.y);
-          myRigidbody.velocity = playerVelocity;
+    //myRigidbody.velocity = playerVelocity;
 
 
-
+          MyAnimator.SetBool("Climbing", true);
          }
 
 
