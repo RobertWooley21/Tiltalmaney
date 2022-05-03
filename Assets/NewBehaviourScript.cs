@@ -46,7 +46,7 @@ void Run()
          void Climbladder() 
          {
           Vector2 playerVelocity = new Vector2(moveIuput.x * runSpeed, myRigidbody.velocity.y);
-
+          myRigidbody.velocity = playerVelocity;
 
 
 
