@@ -49,7 +49,13 @@ void Run()
     //myRigidbody.velocity = playerVelocity;
 
 
-          MyAnimator.SetBool("Climbing", true);
+          MyAnimator.SetBool("Climbing", false);
+          bool playerHasVerticalspeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
+          
+
+
+
+
          }
 
 
